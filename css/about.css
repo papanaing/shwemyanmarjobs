@@ -1,0 +1,62 @@
+nav .navbar-collapse .nav-item{
+    padding-right: 2rem;
+}
+
+nav{
+	border-bottom: 4px solid #2f57ca;
+}
+
+body{
+	background: #f7f7f7;
+}
+
+
+.about-container{
+	max-width: 800px;
+	margin: auto;
+	/*background: white;*/
+	margin-bottom: 5rem;
+}
+
+.about-container p{
+	line-height: 3;
+	padding: 2rem;
+    box-shadow: 0px 5px 20px 5px #adadad;
+    background: white;
+}
+
+.about-container h3{
+	text-transform: uppercase;
+    background: #50a6eb;
+    color: #ffe193;
+    padding: 1rem;
+    width: 21rem;
+    box-shadow: 0px 5px 10px 0px #8e8e8e;
+    margin: 2rem 0rem;
+    margin-top: 5rem;
+}
+
+/*footer*/
+.footer{
+    color: #fff;
+    height: auto;
+    background: #505050;
+}
+
+.footer h5 {
+    margin-bottom: 2rem;
+}
+
+.sub-footer{
+    max-width: 1100px;
+    margin: auto;
+    padding-top: 3rem;
+}
+
+.sub-footer a{
+    color: #bcc9ff;
+}
+
+.facebook a,.messenger a,.email a{
+    margin-left: 1rem;
+}

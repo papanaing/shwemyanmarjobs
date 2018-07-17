@@ -1,0 +1,268 @@
+html {
+    font-size: 0.9rem;
+}
+
+body{
+	background: #f0f0f0;
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+.signup {
+    margin: 1rem 0rem;
+    float: left;
+}
+
+.forget{
+    float: right;
+    margin: 1rem 0rem;
+}
+
+.modal-body {
+    padding: 3rem;
+}
+
+.forget-div {
+    width: 40rem;
+    margin: 4rem auto;
+    background: white;
+    padding: 4rem;
+    text-align: center;
+    box-shadow: 0px 5px 20px 5px #adadad;
+}
+
+.forget-div h3, .forget-div p{
+    margin-bottom: 2rem;
+}
+
+
+.navbar-light .navbar-brand, .navbar-light .navbar-toggler {
+    color: rgb(80, 166, 235);
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-shadow: 0.4px 2px #808080;
+    transition: 0.2s;
+}
+
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover, .navbar-light .navbar-toggler:focus, .navbar-light .navbar-toggler:hover {
+    color: #ffc736;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link {
+    transition: 0.2s;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    border-bottom: 4px solid blue;
+}
+
+.navbar-brand span{
+    color: #ffc736;
+}
+
+.bg-faded {
+    background-color: #f0f0f0;
+}
+
+nav .navbar-collapse .nav-item{
+    padding-right: 2rem;
+}
+
+nav .navbar-collapse .nav-item{
+    padding-right: 2rem;
+}
+
+nav{
+	border-bottom: 4px solid #248fe4;
+}
+
+.admin-email{
+    background: #66abe2;
+    padding: 0.6rem;
+}
+
+.admin-email>a{
+    color: #ffe7a8;
+}
+.post-btn {
+    color: #ffe8ab;
+    background-color: #50a6eb;
+    border: 0px solid #2f57ca;
+    border-radius: 0px;
+    /* box-shadow: 0px 3px #4d566f; */
+    transition: 0.7s;
+    padding: 0.5rem 0.9rem;
+    font-weight: bold;
+}
+
+.post-btn:hover{
+    color: #ffcda0;
+    background-color: #4094cc;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+
+
+.show-container{
+	max-width: 800px;
+    margin: 5rem auto;
+    background: #fff;
+    box-shadow: 0px 5px 20px 5px #adadad;
+}
+
+.show-container h5{
+	font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 2;
+    color: #4a4a4a;
+    text-shadow: 0.2px 0.3px #cacaca;
+}
+
+.about h5{
+    margin-bottom: 2rem;
+    color: #143caf;
+    font-size: 1.3rem;
+    text-shadow: 0.5px 1px #cacaca;
+}
+
+.position h5{
+    color: #143caf;
+}
+
+.image-container{
+	width: 80%;
+    height: 6rem;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container img{
+	width: 80%;
+}
+
+.heading {
+	padding-top: 2rem;
+	margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.heading, .about, .position {
+    
+    padding-bottom: 1rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.info{
+	line-height: 3;
+}
+
+.info svg{
+    margin-right: 1rem;
+}
+
+.position-box {
+	/*border-bottom: 1px solid gray;*/
+	padding: 2rem;
+    padding-top: 0px;
+}
+
+h6{
+	font-weight: bold;
+}
+
+.line{
+	height: 1px;
+    background: #cecece;
+    margin: 1rem 0rem;
+}
+
+.Card {
+	background: #f0f0f0;
+    margin: 1rem 0rem;
+    padding: 3rem;
+    /* line-height: 4; */
+    box-shadow: 0px 0px 10px 1px #c4c3c3;
+}
+
+.Card div{
+    white-space: pre-line;
+    line-height: 2.3;
+}
+
+.position-box h6{
+    font-size: 1.2rem;
+    color: #000;
+    margin-bottom: 1rem;
+}
+.about>p{
+    white-space: pre-line;
+    line-height: 2;
+}
+
+.city{
+    color: #e61544;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.full{
+    color: white;
+    background: #36cb7e;
+    width: 6rem;
+    padding: 0.3rem 0.4rem;
+    text-align: center;
+    border-radius: 30px; 
+    box-shadow: 0px 2px #989e9b;
+}
+
+.part {
+    background: #f1b01f;
+}
+
+.date{
+    color: #888888;
+    font-weight: bold;
+}
+.logopng{
+    width: 3rem;
+}
+/*footer*/
+.footer{
+    color: #fff;
+    height: auto;
+    background: #505050;
+}
+
+.footer h5 {
+    margin-bottom: 2rem;
+}
+
+.sub-footer{
+    max-width: 1100px;
+    margin: auto;
+    padding-top: 3rem;
+}
+
+.sub-footer a{
+    color: #bcc9ff;
+}
+
+.facebook a,.messenger a,.email a{
+    margin-left: 1rem;
+}
+
+/*appply form*/
+.container.apply{
+    max-width: 500px;
+    box-shadow: 0px 5px 20px 5px #adadad;
+    padding: 2.5rem;
+    margin-bottom: 5rem;
+    background: #f9f9f9;
+}
+
+.container.apply h4{
+    font-weight: bold;
+    margin-bottom: 3rem;
+}

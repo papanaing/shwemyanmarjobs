@@ -1,0 +1,118 @@
+html{
+    background: white;
+}
+.container-fluid {
+   
+    padding-bottom: 5rem;
+}
+/*#page-wrapper {
+
+    background-color: #f1f1f1;
+}*/
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #66abe2;
+    background: #66abe2;
+    box-shadow: 0px 1px 5px 3px #a1a1a1;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #ffe087;
+    font-size: 2.3rem;
+}
+
+.top-nav>li>a {
+    color: #fff;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #ffffff;
+}
+
+.page-header {
+
+    font-size: 2.5rem;
+}
+
+.top-nav>li>a:hover, .top-nav>li>a:focus, .top-nav>.open>a, .top-nav>.open>a:hover, .top-nav>.open>a:focus {
+    color: #fff;
+    background-color: #3588ca;
+}
+
+#wrapper {
+    background: #ededed;
+    /*width: 1500px;*/
+}
+
+.side-nav {
+    background-color: #66abe2;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    background-color: #3588ca;
+    color: white;
+}
+
+.side-nav li a:hover, .side-nav li a:focus {
+    outline: none;
+    background-color: #3588ca!important;
+}
+
+.btnlarge{
+    margin-bottom: 5rem;
+}
+
+.btnlarge .col-md-4{
+    padding: 1.5rem;
+}
+
+.btn-success {
+    
+    padding: 3rem;
+}
+
+.container-fluid button{
+    padding: 3rem;
+}
+
+.container-fluid button a{
+   color: #fff;
+}
+
+.desc{
+    white-space: pre-line;
+}
+
+.new{
+    color: #fffd97;
+    text-decoration: none;
+    background: #66abe2;
+    padding: 0.5rem 1rem;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.new:hover{
+    text-decoration: none;
+    color: #fffd97;
+    border-radius: 0px;
+}
+
+.btn-danger{
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    /*border-radius: 20px;*/
+    transition: 0.3s;
+}
+
+.btn-danger:hover{
+    text-decoration: none;
+    border-radius: 0px;
+}
+
+td img{
+    width: 10%;
+}
+
+.table-hover th{
+    font-size: 1.5rem;
+}

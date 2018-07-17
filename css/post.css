@@ -1,0 +1,118 @@
+html {
+	font-size: 0.9rem;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+	/*font-family: 'Zawgyi-One';*/
+	background: #f7f7f7;
+}
+
+/*@font-face {
+font-family: 'Zawgyi-One';
+src: url('https://my.pcloud.com/publink/show?code=XZhV4Q7ZUvGFwHtlnopKMJJIWLYQV4zCe34y/Zawgyi-One.ttf');
+src: local('Zawgyi-One.ttf');
+}*/
+
+
+/*container Form*/
+
+.post-heading{
+	/*text-transform: uppercase;*/
+    background: #50a6eb;
+    color: #ffe193;
+    padding: 1rem;
+    width: 45rem;
+    box-shadow: 0px 5px 10px 0px #8e8e8e;
+    margin: 2rem 0rem;
+}
+
+.post-container{
+	max-width: 1100px;
+    margin: auto;
+    padding: 2rem 5rem;
+}
+
+.post-container h4{
+	margin-top: 1rem;
+    margin-bottom: 2rem;
+    color: #000;
+}
+
+.post-container .submit-btn {
+    text-align: center;
+    background: #36cb7e;
+    color: #fff!important;
+    padding: 0.5rem 1.5rem;
+    border-radius: 15px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.post-container .submit-btn:hover {
+    background: #148c14;
+    color: #fff!important;
+    border-radius: 0px;  
+}
+
+.post-container2{
+    padding: 2rem 4rem;
+    background: white;
+    box-shadow: 0px 5px 20px 5px #adadad; 
+}
+
+.col-md-12,.col-md-6,.col-md-3{
+	margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.position1{
+	font-weight: bold;
+    background: #f7f7f7;
+    margin-bottom: 2rem;
+    box-shadow: 0px 5px 20px 5px #adadad;
+}
+
+.logopng{
+    width: 3rem;
+}
+
+#output {
+    text-align: center;
+    font-size: 1.3rem;
+    color: #860808;
+}
+
+.card-img-top{
+    width: 8rem;
+}
+
+label {
+    color: #444444;
+    font-size: 1.1rem;
+}
+
+/*footer*/
+.footer{
+    color: #fff;
+    height: auto;
+    background: #505050;
+}
+
+.footer h5 {
+    margin-bottom: 2rem;
+}
+
+.sub-footer{
+    max-width: 1100px;
+    margin: auto;
+    padding-top: 3rem;
+}
+
+.sub-footer a{
+    color: #bcc9ff;
+}
+
+.facebook a,.messenger a,.email a{
+    margin-left: 1rem;
+}
